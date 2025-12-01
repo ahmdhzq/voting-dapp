@@ -13,7 +13,6 @@ A full-stack decentralized voting application built on the **Ethereum Virtual Ma
 ## 📸 Application Preview
 
 ![Dashboard Preview](screenshot.png)
-*(Place a screenshot named `preview.png` in the root folder to display it here)*
 
 ---
 
@@ -142,4 +141,4 @@ function vote(uint _candidateId) public {
 This project is licensed under the MIT License. Feel free to use and modify it for your own portfolio or learning purposes.
 
 ---
-Developed by **Ahmad Haziq**# voting-dapp
+Developed by **Ahmad Haziq**
