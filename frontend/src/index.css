@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.alert-toast {
+  padding: 12px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  animation: floatUp .6s ease both;
+}
+
+.alert-toast.success {
+  color: #00ffb3;
+  background: rgba(0,255,179,.08);
+  border: 1px solid rgba(0,255,179,.4);
+  box-shadow: 0 0 18px rgba(0,255,179,.25);
+}
+
+.alert-toast.error {
+  color: #ff6e6e;
+  background: rgba(255,50,50,.08);
+  border: 1px solid rgba(255,50,50,.4);
+  box-shadow: 0 0 18px rgba(255,50,50,.25);
+}
+
+@keyframes floatUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
